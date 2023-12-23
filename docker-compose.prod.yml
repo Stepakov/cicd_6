@@ -28,7 +28,7 @@ services:
         ports:
             - 3306:3306
         volumes:
-            - ./tmp/db/:/var/mysql/
+            - ./tmp/db/:/var/lib/mysql/
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: lar_6
